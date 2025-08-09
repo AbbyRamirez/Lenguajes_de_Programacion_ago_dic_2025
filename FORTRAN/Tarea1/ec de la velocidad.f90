@@ -19,3 +19,4 @@ WRITE (*,*)"la velocidad final es de ",v,Velocidad
 PAUSE
 
 END PROGRAM Ec_de_velocidad
+
