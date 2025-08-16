@@ -7,8 +7,8 @@ READ (*,*) v,h,m
 k = (m*(v**2))/2
 u = m*g*h
 E = u+k
-WRITE(*,*)"La energ¡a cin‚tica es: ",k,Joules
-WRITE(*,*)"La energ¡a potencial es: ",u, Joules
-WRITE(*,*)"La energ¡a Mec nica es: ",E, Joules
+WRITE(*,*)"La energÂ¡a cinâ€štica es: ",k,Joules
+WRITE(*,*)"La energÂ¡a potencial es: ",u, Joules
+WRITE(*,*)"La energÂ¡a MecÂ nica es: ",E, Joules
 PAUSE
 END PROGRAM Energia
