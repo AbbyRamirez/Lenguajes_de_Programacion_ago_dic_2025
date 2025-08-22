@@ -1,6 +1,6 @@
   PROGRAM oplog
   REAL::a,b
-  WRITE(*,*)"Asignar n£meros a A y B"
+  WRITE(*,*)"Asignar nÂ£meros a A y B"
   READ(*,*)a,b
   IF(((a>0).and.(b>0)).and.(a == b))THEN
   WRITE(*,*)"Datos iguales y positivos"
