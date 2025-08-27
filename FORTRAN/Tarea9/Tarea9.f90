@@ -3,7 +3,7 @@ REAL:: a,b,r
 INTEGER::control
 WRITE(*,*)"da los valores para a y b"
 READ(*,*) a,b
-WRITE(*,*)"Seleccione su operaci¢n: 1;SUMA  2;RESTA  3;PRODUCTO  4;DIVISION  5;POTENCIA"
+WRITE(*,*)"Seleccione su operaciÂ¢n: 1;SUMA  2;RESTA  3;PRODUCTO  4;DIVISION  5;POTENCIA"
 READ(*,*)control
 IF(control == 1)THEN
 r = a + b
@@ -36,3 +36,4 @@ END IF
 END IF
 PAUSE
 END PROGRAM Calcbasica
+
