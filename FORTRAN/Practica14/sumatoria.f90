@@ -22,7 +22,7 @@ DO WHILE (bandera .eqv. .true.)
   sumapos = sumapos + n
   cpos = cpos+1
  end if
- WRITE(*,*)"¨Desea seguir sumando?, 1 para terminar?"
+ WRITE(*,*)"Â¨Desea seguir sumando?, 1 para terminar?"
  READ(*,*)control
  if(control==1) THEN
  bandera =.FALSE.
