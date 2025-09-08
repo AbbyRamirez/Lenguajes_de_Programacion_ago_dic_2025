@@ -2,9 +2,9 @@ PROGRAM Graficadotp
 IMPLICIT NONE
 REAL::angulo,x,y,v0,t,c2,x1,y1,c
 Integer::control
-WRITE(*,*)"escriba el  ngulo y velocidad del lanzamiento"
+WRITE(*,*)"escriba el Â ngulo y velocidad del lanzamiento"
 READ(*,*)angulo,v0
-WRITE(*,*)"escriba la posici¢n inicial en (x,y)"
+WRITE(*,*)"escriba la posiciÂ¢n inicial en (x,y)"
 READ(*,*)x1,y1
 c = x1/v0
 OPEN(UNIT = 410, FILE = "P2c4b.txt", STATUS = "NEW", ACTION = "WRITE")
