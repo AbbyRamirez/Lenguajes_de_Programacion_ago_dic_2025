@@ -45,3 +45,4 @@ plt.title("Regresión lineal por mínimos cuadrados")
 plt.grid(True, linestyle="--")
 plt.legend()
 plt.show()
+
